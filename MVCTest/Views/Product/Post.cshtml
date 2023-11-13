@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    //Viewdata["Title"]
+}
+@model Product
+
+<h1>Add your Products</h1>
+
+<form asp-action="Post">
+    <input type="hidden" />
+    <input type="text" name="Name" value="" />
+    <input type="number" name="Price" value="" />
+    <input type="number" name="Quantity" value="" />
+    <input type="checkbox" name="Status" value="" />
+    <input type="submit" value="Save"/>
+</form>
